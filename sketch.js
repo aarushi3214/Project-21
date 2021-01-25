@@ -33,7 +33,7 @@ function draw() {
      
      box.bounceOff(edges);
      if(block1.isTouching(box) && box.bounceOff(block1)){
-        box.shatpeColor="green";
+        box.shapeColor="green";
         music.play();
      }
      if(block2.isTouching(box)){
